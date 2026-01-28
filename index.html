@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="./style.css">
+
+<title>Chat Assistente</title>
+
+</head>
+<body>
+
+<div class="chat-container">
+  <div id="messages"></div>
+
+  <form id="inputForm" class="message-input-form">
+    <input type="text" id="inputMessage" class="message-input" placeholder="Digite sua mensagem...">
+    <button type="submit" class="send-button">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+      </svg>
+    </button>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.5/purify.min.js"></script>
+
+<script src="./script.js">
+
+</script>
+
+</body>
+</html>
